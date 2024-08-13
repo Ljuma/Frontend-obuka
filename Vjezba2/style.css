@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #faf7f2;
+  color: #404040;
+  text-align: justify;
+}
+
+article {
+  width: 90%;
+  margin: auto;
+}
+
+.main-heading {
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bolder;
+  padding: 25px;
+}
+
+.row-1 {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 2px solid #404040;
+  margin-bottom: 25px;
+}
+
+.row-2 {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule: 2px solid #404040;
+}
+
+.time {
+  text-transform: uppercase;
+  font-weight: bolder;
+  text-align: center;
+  border-top: 3px solid #404040;
+  border-bottom: 3px solid #404040;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+time {
+  background-color: #716e6e77;
+}
+
+.quote {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+.article-heading {
+  text-transform: uppercase;
+  font-size: 40px;
+  padding: 30px 0 15px 0;
+}
+
+.author {
+  margin-bottom: 20px;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-size: 35px;
+  padding: 30px 0 15px 0;
+}
+
+.before-subheading1 {
+  margin-top: 15px;
+}
+
+ul {
+  list-style-image: url("26152.png");
+}
+
+li {
+  margin-left: 30px;
+}
+
+li:last-child {
+  margin-bottom: 15px;
+}
+
+.before-subheading2 {
+  margin-top: 20px;
+}
+
+.before-image {
+  margin-bottom: 20px;
+}
+
+.with-image {
+  float: right;
+}
+
+figure {
+  float: left;
+}
+
+img {
+  height: 150px;
+  width: auto;
+  filter: grayscale(100%);
+  margin-right: 20px;
+}
+
+figcaption {
+  font-weight: bolder;
+}
